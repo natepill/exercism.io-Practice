@@ -1,5 +1,7 @@
 def abbreviate(words):
 
+    #TODO encapsulate some of the if statements with a try-expect block in order to account for out of index values
+
     words = words.replace('-', ' ')
     words_array = words.split(' ')
 
